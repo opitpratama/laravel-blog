@@ -40,3 +40,22 @@ Untuk materi routenya sudah ada pada contoh di repository ini. Cara makenya gman
 - Trus `php artisan key:generate`.
 - Jalankan app laravel dengan `php artisan serve`.
 - Cek files routes/web.php untuk materi Route dan app/Http/Controller untuk materi controller. Disana sudah ada penjelasan.
+
+# Cara buat Model, Controller
+Cara membuat model dan controller dalam laravel cukup mudah. Jadi cara membuat Controller adalah :
+- Buka cmd, lalu masuk ke direktori project laravel anda.
+- ketik perintah
+`php artisan make:controller NamaController`
+perintah tersebut akan men-generate file baru dalam folder controller anda. File tersebut akan berisikan kerangka untuk membuat sebuah controller.
+
+Selain dengan cara itu, membuat controller juga bisa menggunakan perintah 
+`php artisan make:controller NamaController --resource`
+perintah tersebut akan men-generate file baru yang berisikan kerangka untuk membuat sebuah CRUD lengkap dengan functionnya.
+
+Untuk membuat model dapat menggunakan perintah 
+`php artisan make:model NamaModel`
+perintah tersebut akan men-generate file baru dalam folder Http dan berisikan kerangka awal untuk membuat model.
+
+Selain itu, terdapat perintah
+`php artisan make:model --migration`
+yang dapat digunakan untuk membuat model sekaligus migration.
