@@ -59,3 +59,8 @@ perintah tersebut akan men-generate file baru dalam folder Http dan berisikan ke
 Selain itu, terdapat perintah
 `php artisan make:model --migration`
 yang dapat digunakan untuk membuat model sekaligus migration.
+
+# Direktori Laravel
+
+# Env
+Env disini berguna sebagai tempat untuk melakukan pengaturan bagi project kita
